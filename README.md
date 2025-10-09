@@ -1,53 +1,47 @@
-# 📊 Portfolio - Analiza Danych | Od Zera do AI
+# 📊 Analiza Danych - Zbiór Iris
 
-Witaj w moim portfolio projektów z analizy danych! Ten repozytorium zawiera projekty wykonane podczas kursu "Od Zera do AI", demonstrujące moje umiejętności w zakresie analizy danych, wizualizacji i programowania w Pythonie.
+Witaj w moim projekcie analizy danych! Ten repozytorium zawiera kompletną analizę zbioru danych dotyczących gatunków irysów, wykonaną w ramach kursu "Od Zera do AI".
 
 ## 🎯 O Projekcie
 
-Ten repozytorium prezentuje moją podróż naukową w dziedzinie Data Science, od podstaw Pythona po zaawansowane techniki analizy danych. Każdy projekt to praktyczne zastosowanie poznanych narzędzi i metod.
+Projekt prezentuje **Eksploracyjną Analizę Danych (EDA)** klasycznego zbioru danych Iris, który zawiera pomiary czterech cech trzech gatunków irysów. Jest to jeden z najbardziej znanych zbiorów danych w Data Science, często używany jako punkt wyjścia do nauki analizy danych.
 
 ## 📚 Zawartość
 
-### Moduł 3: Podstawy Pythona
-- **Zmienne i typy danych** - praca z różnymi typami danych w Pythonie
-- **Pętle i warunki** - implementacja logiki programistycznej
-- **Funkcje i moduły** - organizacja kodu i reużywalność
-- **Praca z plikami** - odczyt i zapis danych
+### 📈 Analiza Zbioru Iris (`25__zadanie_domowe__modul_4_1.ipynb`)
+- **Eksploracyjna analiza danych (EDA)** - systematyczne badanie struktury danych
+- **Analiza statystyczna** - podstawowe statystyki opisowe dla każdej cechy
+- **Wizualizacje** - histogramy, wykresy pudełkowe, wykresy rozrzutu
+- **Analiza korelacji** - badanie zależności między cechami
+- **Analiza różnic między gatunkami** - porównanie cech poszczególnych gatunków irysów
+- **Wnioski końcowe** - interpretacja wyników i odkryć
 
-### Moduł 4: Analiza Danych z Pandas
-- **📈 Analiza zbioru Iris** (`25__zadanie_domowe__modul_4_1.ipynb`)
-  - Eksploracyjna analiza danych (EDA)
-  - Wizualizacje z wykorzystaniem matplotlib i seaborn
-  - Analiza korelacji między cechami
-  - Wnioski dotyczące różnic między gatunkami irysów
-
-- **🚢 Analiza Titanica** (`26__zadanie_domowe__modul_4_2.ipynb`)
-  - Analiza przeżywalności pasażerów
-  - Badanie wpływu klasy, płci i wieku na szanse przeżycia
-  - Wizualizacje statystyczne
-
-### Moduł 5: Praca z Różnymi Formatami Danych
-- **CSV i TSV** - import i eksport danych
-- **JSON** - praca z danymi strukturalnymi
-- **XML** - parsowanie dokumentów XML
-- **Excel** - zaawansowana praca z arkuszami kalkulacyjnymi
-- **PDF i obrazy** - ekstrakcja danych z dokumentów
+### 📊 Dane (`25__iris.csv`)
+Zbiór danych zawiera:
+- **150 obserwacji** (po 50 dla każdego gatunku)
+- **4 cechy numeryczne:**
+  - Długość kielicha (sepal length)
+  - Szerokość kielicha (sepal width) 
+  - Długość płatka (petal length)
+  - Szerokość płatka (petal width)
+- **1 cecha kategoryczna:**
+  - Gatunek (setosa, versicolor, virginica)
 
 ## 🛠️ Używane Technologie
 
 - **Python** - główny język programowania
 - **Pandas** - analiza i manipulacja danych
-- **NumPy** - obliczenia numeryczne
 - **Matplotlib** - podstawowe wizualizacje
 - **Seaborn** - zaawansowane wykresy statystyczne
+- **NumPy** - obliczenia numeryczne
 - **Jupyter Notebook** - środowisko interaktywne
 
-## 🚀 Jak Uruchomić Projekty
+## 🚀 Jak Uruchomić Projekt
 
 1. **Sklonuj repozytorium:**
    ```bash
-   git clone https://github.com/TWOJA-NAZWA-REPOZYTORIUM.git
-   cd od_zera_do_ai
+   git clone https://github.com/Arekarek4444/od-zera-do-ai-projekty.git
+   cd od-zera-do-ai-projekty
    ```
 
 2. **Zainstaluj wymagane biblioteki:**
@@ -60,31 +54,35 @@ Ten repozytorium prezentuje moją podróż naukową w dziedzinie Data Science, o
    jupyter notebook
    ```
 
-4. **Otwórz wybrany plik .ipynb** i uruchom komórki
+4. **Otwórz plik** `modul_4/25__zadanie_domowe__modul_4_1.ipynb`
 
-## 📊 Kluczowe Umiejętności
+## 📊 Kluczowe Odkrycia
+
+### 🎨 **Gatunki Irysów:**
+- **Iris-setosa** - najmniejsze kwiaty, najbardziej kompaktowe płatki
+- **Iris-versicolor** - średnie rozmiary, umiarkowane cechy
+- **Iris-virginica** - największe kwiaty, najdłuższe i najszersze płatki
+
+### 📈 **Główne Wnioski:**
+1. **Najsilniejsza korelacja** występuje między długością a szerokością płatka (0.96)
+2. **Iris-setosa** ma wyraźnie mniejsze płatki niż pozostałe gatunki
+3. **Kielichy** są mniej różnicujące między gatunkami niż płatki
+4. **Brak wartości odstających** w większości cech (oprócz szerokości kielicha)
+
+## 🎓 Umiejętności Demonstrowane
 
 - ✅ **EDA (Exploratory Data Analysis)** - systematyczna eksploracja danych
 - ✅ **Wizualizacja danych** - tworzenie czytelnych wykresów i diagramów
 - ✅ **Statystyka opisowa** - analiza rozkładów i korelacji
-- ✅ **Czyszczenie danych** - obsługa brakujących wartości i duplikatów
 - ✅ **Manipulacja DataFrame** - filtrowanie, grupowanie, agregacja
-- ✅ **Praca z różnymi formatami** - CSV, JSON, XML, Excel, PDF
-
-## 🎓 Nauka i Rozwój
-
-Każdy projekt to krok naprzód w mojej nauce Data Science. Staram się:
-- Dodać szczegółowe komentarze i opisy
-- Przedstawić wnioski z analiz
-- Używać najlepszych praktyk w kodzie
-- Tworzyć czytelne wizualizacje
+- ✅ **Analiza różnic między grupami** - porównanie gatunków
+- ✅ **Interpretacja wyników** - wyciąganie wniosków biznesowych
 
 ## 📞 Kontakt
 
 - **Email:** arekkowalski1@icloud.com
-- **GitHub:** [Twój profil GitHub]
+- **GitHub:** [Arekarek4444](https://github.com/Arekarek4444)
 
 ---
 
-*Ten repozytorium jest ciągle rozwijane wraz z moją nauką. Każdy commit to nowa umiejętność! 🚀*
-# od-zera-do-ai-projekty
+*Ten projekt demonstruje moje umiejętności w zakresie analizy danych i wizualizacji w Pythonie. 🚀*
