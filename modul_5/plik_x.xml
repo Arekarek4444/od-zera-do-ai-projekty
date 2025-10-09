@@ -1,0 +1,13 @@
+
+<autos>
+    <auto>
+        <marka>audi</marka>
+        <model>q3</model>
+        <cena>218000</cena>
+    </auto>
+    <auto>
+        <marka>toyota</marka>
+        <model>C-HR</model>
+        <cena>120800</cena>
+    </auto>
+</autos>

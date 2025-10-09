@@ -1,0 +1,15 @@
+
+<clients>
+    <client>
+        <name>John Doe</name>
+        <age>25</age>
+        <city>San Francisco</city>
+        <date_of_birth>1995-01-01</date_of_birth>
+    </client>
+    <client>
+        <name>Jane Doe</name>
+        <age>22</age>
+        <city>Los Angeles</city>
+        <date_of_birth>1998-01-01</date_of_birth>
+    </client>
+</clients>

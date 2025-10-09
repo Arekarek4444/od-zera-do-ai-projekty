@@ -1,0 +1,447 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "ac647711-86f3-4828-9d7b-43bc68c6f92d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ZeroDivisionError",
+     "evalue": "division by zero",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mZeroDivisionError\u001b[0m                         Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[12], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m result \u001b[38;5;241m=\u001b[39m \u001b[38;5;241m1\u001b[39m \u001b[38;5;241m/\u001b[39m \u001b[38;5;241m0\u001b[39m\n",
+      "\u001b[0;31mZeroDivisionError\u001b[0m: division by zero"
+     ]
+    }
+   ],
+   "source": [
+    "result = 1 / 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "63022534-1d08-4d5e-a856-eaf97ee45e30",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nie można dzielić przez zero!\n"
+     ]
+    }
+   ],
+   "source": [
+    "# obsługa błędu, żeby wyświtlić komunikat zamiast błędu\n",
+    "try:\n",
+    "    result = 1 / 0\n",
+    "except ZeroDivisionError:\n",
+    "    print('Nie można dzielić przez zero!')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "dd7d49c4-cc64-47df-bc03-8a75c808baf4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BMI: 27.68\n"
+     ]
+    }
+   ],
+   "source": [
+    "# obliczanie BMI\n",
+    "waga = 80\n",
+    "wzrost = 1.7\n",
+    "BMI = waga / (wzrost ** 2)\n",
+    "print(\"BMI:\", round(BMI, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "dcde0c95-8097-47f5-a992-40e92642319a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BMI: 26.03\n"
+     ]
+    }
+   ],
+   "source": [
+    "waga = 70\n",
+    "wzrost = 1.64\n",
+    "BMI = waga / (wzrost ** 2)\n",
+    "print(\"BMI:\", round(BMI, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "61349d43-0e58-4e1d-ab6c-950c2850b072",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nowa cena; 2720.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# obliczanie ceny po rabacie\n",
+    "orginalna_cena = 3200\n",
+    "procent_rabatu = 15\n",
+    "wartosc_rabatu = orginalna_cena * procent_rabatu / 100\n",
+    "nowa_cena = orginalna_cena - wartosc_rabatu\n",
+    "print(\"Nowa cena;\", round(nowa_cena, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "e9c43610-2ca6-4242-928f-fd2eaac866b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nowa cena; 136705.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "orginalna_cena = 143900\n",
+    "procent_rabatu = 5\n",
+    "wartosc_rabatu = orginalna_cena * procent_rabatu / 100\n",
+    "nowa_cena = orginalna_cena - wartosc_rabatu\n",
+    "print(\"Nowa cena;\", round(nowa_cena, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "04254a18-5579-4c9a-ba8d-1478f417b162",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 jest parzysta\n"
+     ]
+    }
+   ],
+   "source": [
+    "# ustalanie czy liczba jest parzysta\n",
+    "liczba = 10\n",
+    "if liczba %2 == 0:\n",
+    "    print(liczba, \"jest parzysta\")\n",
+    "else:\n",
+    "    print(liczba, \"jest nieparzysta\")\n",
+    "          "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "bb4d5f08-6940-4749-b115-840e24d30e9b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "11 jest nieparzysta\n"
+     ]
+    }
+   ],
+   "source": [
+    "liczba = 11\n",
+    "if liczba %2 == 0:\n",
+    "    print(liczba, \"jest parzysta\")\n",
+    "else:\n",
+    "    print(liczba, \"jest nieparzysta\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "cfb1c3ba-e8dd-44ba-8454-592608d497eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "5\n",
+      "4\n",
+      "3\n",
+      "2\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "# odliczanie co sekundę do jednego\n",
+    "import time\n",
+    "seconds = 10\n",
+    "while seconds > 0:\n",
+    "    print(seconds)\n",
+    "    time.sleep(1)\n",
+    "    seconds -= 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "eb9b03f0-2620-42e6-aeb2-0ac885d92a0d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "5\n",
+      "4\n",
+      "3\n",
+      "2\n",
+      "1\n",
+      "0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# odliczanie co sekundę do zera\n",
+    "import time\n",
+    "seconds = 10\n",
+    "while seconds >= 0:\n",
+    "    print(seconds)\n",
+    "    time.sleep(1)\n",
+    "    seconds -= 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "a05fd05d-3a2e-46fa-a8a9-ff4f7e7db579",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "orzel\n"
+     ]
+    }
+   ],
+   "source": [
+    "import random\n",
+    "\n",
+    "mozliwosci = (random.choice([\"orzel\", \"reszka\"]))\n",
+    "\n",
+    "print(mozliwosci)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "b249a54e-fa9c-4521-8115-ce2104b912f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/Users/arek/Desktop/od_zera_do_ai/modul_3\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "print(os.getcwd())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ac6ba500-75ca-47b3-8bca-d54f288b4a64",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import time\n",
+    "from datetime import datetime, timedelta\n",
+    "\n",
+    "# Campiść konkretną datę i godzinę\n",
+    "target_date = datetime(2025, 2, 20, 15, 0, 0)\n",
+    "\n",
+    "while True:\n",
+    "    # Oblicz różnicę czasu\n",
+    "    time_difference = target_date - datetime.now()\n",
+    "\n",
+    "    # Różnica czasu nie może być ujemna\n",
+    "    if time_difference < timedelta(0):\n",
+    "        print(\"Odliczanie zakończone.\")\n",
+    "        break\n",
+    "\n",
+    "    # Wypisz godziny, minuty i sekundy\n",
+    "    hours, remainder = divmod(time_difference.seconds, 3600)\n",
+    "    minutes, seconds = divmod(remainder, 60)\n",
+    "\n",
+    "    print(f\"Pozostało: {hours} godzin, {minutes} minut, {seconds} sekund.\")\n",
+    "    \n",
+    "    # Czekaj na kolejną sekundę\n",
+    "    time.sleep(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "a9678b65-eb81-45ee-b2bf-c131b08fde75",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Pozostało: 2 dni, 15 godzin, 57 minut and 35 sekund.\n",
+      "Pozostało: 2 dni, 15 godzin, 56 minut and 35 sekund.\n"
+     ]
+    },
+    {
+     "ename": "KeyboardInterrupt",
+     "evalue": "",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[1], line 18\u001b[0m\n\u001b[1;32m     15\u001b[0m \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124mf\u001b[39m\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mPozostało: \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mdifference\u001b[38;5;241m.\u001b[39mdays\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m dni, \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mhours\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m godzin, \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mminutes\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m minut and \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mseconds\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m sekund.\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[1;32m     17\u001b[0m \u001b[38;5;66;03m# Czekanie przez minutę zanim nastąpi kolejne odliczanie\u001b[39;00m\n\u001b[0;32m---> 18\u001b[0m time\u001b[38;5;241m.\u001b[39msleep(\u001b[38;5;241m60\u001b[39m)\n",
+      "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
+     ]
+    }
+   ],
+   "source": [
+    "import datetime\n",
+    "import time\n",
+    "\n",
+    "# Zielona data i godzina - zmień na wartość, która jest celem odliczania\n",
+    "target_datetime = datetime.datetime(2025, 2, 20, 15, 00, 00)\n",
+    "\n",
+    "while True:\n",
+    "    current_datetime = datetime.datetime.now()\n",
+    "    # Obliczanie różnicy między bieżącym a celem\n",
+    "    difference = target_datetime - current_datetime\n",
+    "    # Wypisanie pozostałego czasu\n",
+    "    hours, remainder = divmod(difference.seconds, 3600)\n",
+    "    minutes, seconds = divmod(remainder, 60)\n",
+    "    \n",
+    "    print(f'Pozostało: {difference.days} dni, {hours} godzin, {minutes} minut and {seconds} sekund.')\n",
+    "    \n",
+    "    # Czekanie przez minutę zanim nastąpi kolejne odliczanie\n",
+    "    time.sleep(60)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3ee0f45a-9025-4cfb-b105-9de55264644c",
+   "metadata": {},
+   "source": [
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "292ed8a9-df65-462d-a8bf-676d323a4e92",
+   "metadata": {},
+   "source": [
+    "# tworzenie list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "04377382-2cf0-4633-909b-2c81454e8aa8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "# zadeklarowanie pustej listy\n",
+    "my_list = []\n",
+    "# umożliwienie użytkownikowi podania ilości operacji\n",
+    "n = int(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "6a432132-923e-40a7-8dfb-45477554c50e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['wrona', 'kawka', 'sroka']\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_list = [\"sroka\", \"kawka\", \"wrona\"]\n",
+    "my_list.reverse()\n",
+    "print(my_list)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
