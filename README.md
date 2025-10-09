@@ -87,3 +87,4 @@ Każdy projekt to krok naprzód w mojej nauce Data Science. Staram się:
 ---
 
 *Ten repozytorium jest ciągle rozwijane wraz z moją nauką. Każdy commit to nowa umiejętność! 🚀*
+# od-zera-do-ai-projekty
