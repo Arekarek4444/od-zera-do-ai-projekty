@@ -43,5 +43,8 @@ Thumbs.db
 *.xlsx
 *.json
 
+# Wyjątki - pliki które chcemy dodać na GitHub
+!modul_5/zadanie_domowe_modul_5/AK_zadanie_domowe_modul_5.csv
+
 # Logs
 *.log

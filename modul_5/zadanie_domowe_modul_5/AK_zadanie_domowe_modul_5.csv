@@ -1,0 +1,27 @@
+date,product_id,product_name,quantity,price,company_name,customer_id,customer_name,invoice_number,email,phone
+2024-01-26,20,spodnie,2.0,14,Firma XYZ,100.0,Johnny Franklin,9.0,bankslisa@example.org,(626)681-2730x71696
+2024-02-21,7,router,1.0,48,Firma XYZ,63.0,Alexis Johnson,8.0,campbellkatrina@example.org,(311)679-3346
+2024-02-21,9,klawiatura,1.0,65,Firma XYZ,63.0,Alexis Johnson,8.0,campbellkatrina@example.org,(311)679-3346
+2024-02-21,20,spodnie,1.0,14,Firma XYZ,63.0,Alexis Johnson,8.0,campbellkatrina@example.org,(311)679-3346
+2024-03-14,5,słuchawki,4.0,40,Firma XYZ,8.0,Ronald Callahan,6.0,audrey56@example.com,+1-727-668-2720x085
+2024-03-14,16,ochraniacze,2.0,46,Firma XYZ,8.0,Ronald Callahan,6.0,audrey56@example.com,+1-727-668-2720x085
+2024-03-14,2,laptop,1.0,47,Firma XYZ,44.0,Kimberly Marquez,10.0,joseph28@example.net,+1-688-249-5941x6260
+2024-03-14,9,klawiatura,2.0,65,Firma XYZ,44.0,Kimberly Marquez,10.0,joseph28@example.net,+1-688-249-5941x6260
+2024-03-26,14,rolki,3.0,11,Firma XYZ,78.0,William Velazquez,4.0,lisa25@example.net,(765)602-1572x949
+2024-05-02,5,słuchawki,1.0,40,Firma XYZ,92.0,Valerie Stevens,11.0,xlowe@example.com,757-943-1579x98346
+2024-05-19,16,ochraniacze,4.0,46,Firma XYZ,60.0,Troy Alexander,3.0,nturner@example.net,+1-212-349-3992x430
+2024-05-25,7,router,3.0,48,Firma XYZ,3.0,Eric Moore,2.0,lejacob@example.org,923-681-4646
+2024-05-25,17,narty,5.0,55,Firma XYZ,3.0,Eric Moore,2.0,lejacob@example.org,923-681-4646
+2024-06-24,1,telewizor,2.0,85,Firma XYZ,4.0,Laura Beard,7.0,westdominique@example.org,(291)558-0966
+2024-07-23,10,pendrive,4.0,47,Firma XYZ,33.0,Steven Jackson,5.0,jeremy07@example.com,481.258.2434
+2024-07-23,2,laptop,2.0,47,Firma XYZ,33.0,Steven Jackson,5.0,jeremy07@example.com,481.258.2434
+,3,smartfon,0.0,60,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,4,tablet,0.0,40,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,6,kamera,0.0,92,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,8,myszka,0.0,30,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,11,rower,0.0,69,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,12,hulajnoga,0.0,44,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,13,skateboard,0.0,81,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,15,kask,0.0,46,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,18,snowboard,0.0,85,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
+,19,kurtka,0.0,12,NO SALES,0.0,NO SALES,0.0,NO SALES,NO SALES
