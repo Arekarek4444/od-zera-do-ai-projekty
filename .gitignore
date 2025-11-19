@@ -43,8 +43,17 @@ Thumbs.db
 *.xlsx
 *.json
 
-# Wyjątki - pliki które chcemy dodać na GitHub
+# Wyjątki - najpierw definiujemy co chcemy pokazać (tylko zadania domowe)
+# Muszą być przed ogólnymi regułami
+!modul_4/25__iris.csv
+!modul_4/25__zadanie_domowe__modul_4_1.ipynb
+!modul_5/zadanie_domowe_modul_5/
+!modul_5/zadanie_domowe_modul_5/AK_zadanie_domowe_modul_5.ipynb
 !modul_5/zadanie_domowe_modul_5/AK_zadanie_domowe_modul_5.csv
+
+# Ukrywamy wszystkie pliki z modul_4 i modul_5 (oprócz wyjątków powyżej)
+modul_4/*
+modul_5/*
 
 # Logs
 *.log
